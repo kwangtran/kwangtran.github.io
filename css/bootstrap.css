@@ -1879,7 +1879,7 @@ pre code {
     }
 }
 
-@media (max-width:1199.98px) {
+@media (max-width:3000px.98px) {
     .table-responsive-xl {
         display: block;
         width: 100%;
@@ -4399,7 +4399,7 @@ input[type=submit].btn-block {
     }
 }
 
-@media (max-width:1199.98px) {
+@media (max-width:3000.98px) {
     .navbar-expand-xl>.container,
     .navbar-expand-xl>.container-fluid {
         padding-right: 0;
