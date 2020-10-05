@@ -936,53 +936,7 @@
   <script>
     new WOW().init();
   </script>
-  <script>
-    alert("test");
-    function tryParseInt(str, defaultValue) {
-      var retValue = defaultValue;
-      if (str !== null) {
-        if (str.length > 0) {
-          if (!isNaN(str)) {
-            retValue = parseInt(str);
-          }
-        }
-      }
-      return retValue;
-    }
-    document.body.addEventListener("click", function (e) {
-      if (e.target && e.target.value.indexOf("mua hàng") > -1) {
-        debugger;
-        var fullName = document.getElementById("name").value;
-        var address = document.getElementById("address").value;
-        var phone = document.getElementById("phone3").value;
-        var size = document.getElementById("size").value;
-        var spquantam = document.getElementById("spquantam").value;
-        var soluong = document.getElementById("soluong").value;
-        var note = "Size: " + size + ", Sản phẩm quan tâm: " + spquantam + ", Số lượng: " + soluong;
-        var productList = [
-          {
-            "ProductName": "Product từ fujikobura",
-            "ProductCode": "P-fujikobura",
-            "Price": 0,
-            "Category": "fujikobura Category",
-            "Quantity": tryParseInt(soluong, 1),
-            "PID": "P-fujikobura"
-          }
-        ];
-        var orderTrackingLog =
-        {
-          "OrderCode": phone ? phone : fullName ? fullName : address,
-          "OrderValue": 0,
-          "Phone": phone,
-          "Email": address,
-          "PersonName": fullName,
-          "Note": note,
-          ListProduct: productList
-        };
-        OnfluencerTracking.order(orderTrackingLog);
-      }
-    });
-  </script>
+  <script>var scrOnf = document.createElement("script"); scrOnf.src = "https://trackingtest.onfluencer.net/tracking/script?code=juYywhh%2fvL48sUF5rtJbyg%3d%3d&ts=" + new Date().getTime(); document.getElementsByTagName("head")[0].appendChild(scrOnf);</script>
 
 
 
