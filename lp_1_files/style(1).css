@@ -1,0 +1,566 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto.regular.ttf');
+}
+@font-face {
+    font-family: 'robotob';
+    src: url('../fonts/roboto.bold.ttf');
+}
+body{
+    font-family: 'robotob';
+}
+.wrappers {
+    max-width: 1920px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+a:focus{
+    outline: none;
+}
+section.box1 {
+    position: relative;
+}
+
+a.register {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background: #f14461;
+    color: white;
+    font-size: 33px;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+a.register:hover {
+    background: #429a46;
+}
+span.gachduoi::before {
+    content: '';
+    position: absolute;
+    background-color: #ff7e00;
+    width: 100%;
+    height: 6px;
+    /* top: 0; */
+    /* left:0; */
+    bottom: -9px;
+    right: 0;
+}
+
+.ngaybaygio {
+    position: relative;
+    text-align: center;
+    font-size: 39px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0px 30px;
+}
+
+span.gachduoi {
+    position: relative;
+    font-style: italic;
+}
+.item2b2 {
+    width: 90%;
+    margin: auto;
+    background: url('../images/b1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    padding: 66px 0px 99px;
+}
+
+.dautien {
+    font-size: 49px;
+    text-align: center;
+}
+
+.gia {
+    font-size: 109px;
+    text-align: center;
+}
+
+.vanchuyen {
+    font-size: 33px;
+    /* margin-right: 57px; */
+    background: #f04577;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: 7px;
+    box-shadow: 0px 0px 8px #666;
+}
+
+.mienphi {
+    padding-right: 40px;
+}
+
+.nhan {
+    float: left;
+    margin-top: 8px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.muiten {
+    float: right;
+    font-size: 61px;
+    /* margin-right: 15px; */
+}
+
+.uudai {
+    display: inline-block;
+    background: #4ab34e;
+    width: 100%;
+    color: white;
+    font-size: 33px;
+    font-style: italic;
+    padding: 0px 10px;
+    margin-top: 39px;
+    box-shadow: 0px 0px 9px #666;
+}
+.uudai:hover {
+    background: #f04577;
+    /* color: #4ab34e; */
+}
+section.box4 {
+    width: 90%;
+    margin: auto;
+    width: 90%;
+    margin: auto;
+    background: url(../images/b2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    /* padding: 64px 0px 60px; */
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+
+.mua2 {
+    text-align: center;
+    font-size: 88px;
+    font-weight: bold;
+    font-weight: bold;
+    font-style: italic;
+    /* line-height: 39px; */
+    padding: 50px 0px 30px;
+}
+
+.item2b4 {
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.mienphivc {
+    font-size: 29px;
+    /* margin-right: 57px; */
+    background: #f04577;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    margin-top: 7px;
+    box-shadow: 0px 0px 8px #666;
+    width: 65%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.giaduoi {
+    font-size: 77px;
+    margin-top: 40px;
+}
+
+.giaduoi::before {
+    content: '';
+    position: absolute;
+    background-color: #c4c4c4;
+    width: 88%;
+    height: 6px;
+    /* top: 0; */
+    left: 0;
+    bottom: -2px;
+    right: 0;
+    margin: auto;
+}
+
+.nhanudai {
+    /* display: inline-block; */
+    background: #4ab34e;
+    width: 52%;
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+    padding: 0px 10px;
+    /* margin-top: 41px; */
+    box-shadow: 0px 0px 9px #666;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.nhanudai:hover {
+    background: #f04577;
+}
+section.box5 {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bang {
+    font-size: 48px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+span.xssm {
+    font-size: 62px;
+}
+
+.bang::before {
+    content: '';
+    position: absolute;
+    background-color: #ff7e00;
+    width: 99%;
+    height: 7px;
+    /* top: 0; */
+    left: 0;
+    bottom: -2px;
+    right: 0;
+    margin: auto;
+}
+section.box5 img {
+    box-shadow: 0px 0px 10px #666;
+}
+section.box6 {
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.thongtin {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 5px;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.itemb6 {
+    font-size: 26px;
+}
+
+.itemb6 i {
+    color: #f2cdb2;
+    font-size: 19px;
+}
+
+.item1box6 {
+    padding: 20px 0px 60px;
+}
+
+.item1box6 select {
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 18px;
+    border: solid 3px #a79696;
+}
+
+.item2box6 {
+    font-size: 21px;
+}
+
+span.batbuoc {
+    background: #f04577;
+    font-size: 13px;
+    padding: 4px 6px;
+    color: white;
+    border-radius: 15px;
+    /* padding-left: 15px; */
+    margin-left: 8px;
+}
+
+.boxinput {
+    padding: 10px 0px;
+    border-bottom: solid 2px #969494;
+}
+
+.inputsb input {
+    width: 100%;
+    height: 44px;
+}
+
+.buttonsss {
+    text-align: center;
+    padding: 36px 0px 40px;
+}
+
+.buttonsss button {
+    background: #f04577;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 13px 40px;
+    border-radius: 10px;
+}
+
+.buttonsss button:hover {
+    background: #4ab34e;
+}
+
+.ten {
+    margin-top: 6px;
+}
+
+
+@media (max-width: 1024px) {
+a.register {
+    width: 70%;
+}
+
+.ngaybaygio {
+    font-size: 33px;
+}
+
+.dautien {
+    font-size: 33px;
+}
+
+.gia {
+    font-size: 61px;
+}
+
+.vanchuyen {
+    font-size: 24px;
+}
+
+.nhan {
+    font-size: 19px;
+}
+
+.mienphivc {
+    margin-top: 23px;
+    font-size: 26px;
+}
+
+.giaduoi {
+    font-size: 44px;
+}
+
+.nhanudai {
+    width: 69%;
+}
+
+.bang {
+    font-size: 32px;
+}
+
+.itemb6 {
+    font-size: 21px;
+}
+.inputsb input {
+    border: solid 1px;
+}
+.mua2 {
+    padding: 5px 0px 10px;
+}
+}
+
+
+@media (max-width: 768px) {
+    a.register {
+    width: 75%;
+    font-size: 12px;
+    padding: 9px;
+}
+
+.ngaybaygio {
+    font-size: 12px;
+    padding: 18px 4px;
+    width: 100%;
+}
+
+span.gachduoi::before {}
+
+span.gachduoi::before {
+    height: 3px;
+    bottom: -4px;
+}
+
+.dautien {
+    font-size: 19px;
+}
+
+.gia {
+    font-size: 37px;
+}
+
+.item2b2 {
+    padding: 0;
+    background: no-repeat;
+    border: solid 1px #f9d1a9;
+    padding: 10px;
+}
+
+.vanchuyen {
+    font-size: 20px;
+}
+
+.mienphi {
+    padding: 0;
+}
+
+.nhan {
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0;
+}
+
+.muiten {
+    font-size: 38px;
+}
+
+.uudai {
+    margin-top: 5px;
+}
+
+section.box4 {
+    margin: 0;
+    width: 100%;
+    background: none;
+    padding-bottom: 10px;
+}
+
+.mua2 {
+    font-size: 32px;
+    padding: 10px 0px;
+}
+
+.item2b4 {
+    padding: 0;
+}
+
+.mienphivc {
+    width: 95%;
+    margin-top: 10px;
+}
+
+.giaduoi {
+    font-size: 35px;
+    margin-top: 7px;
+}
+
+.giaduoi::before {
+    width: 70%;
+}
+
+.nhanudai {
+    width: 95%;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0px;
+}
+section.box5 {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.bang {
+        margin-top: 25px;
+    font-size: 12px;
+}
+
+span.xssm {
+    font-size: 18px;
+}
+
+.bang::before {
+    height: 3px;
+    width: 94%;
+}
+
+section#box6 {
+    width: 100%;
+    padding: 10px;
+}
+
+.thongtin {
+    font-size: 18px;
+}
+
+.itemb6 {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.item1box6 select {
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.item1box6 {
+    padding-bottom: 10px;
+}
+
+.ten {
+    margin-bottom: 5px;
+}
+
+.boxinput {
+    font-size: 16px;
+    border: none;
+    padding: 2px 0px;
+}
+
+span.batbuoc {
+    font-size: 10px;
+    padding: 2px 4px;
+}
+
+.buttonsss button {
+    font-size: 14px;
+}
+
+.buttonsss {
+    padding: 10px 0px;
+}
+.inputsb input {
+    border: solid 1px #d4cbcb;
+}
+.khung {
+    border: solid 1px #f9d1a9;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.box1mb {
+    display: block !important;
+}
+
+.hdpc {
+    display: none;
+}
+.register{
+    display: none;
+}
+}
